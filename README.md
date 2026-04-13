@@ -8,36 +8,23 @@ Based on this test it appears that pages are processed in alphabetical order. Al
 test are rendered and not the ones after. So, the same page content gives a different result depending on the filename
 and where it stands in alphabetical order.
 
+Here is the output of each file:
+
 ## c.md
-```
-a.md rendered
-
-b.md rendered
-
-c.md unrendered
-
-d.md unrendered
-
-e.md unrendered
-
-main.scss rendered
-
-/feed.xml rendered
-```
+- a.md rendered
+- b.md rendered
+- c.md unrendered
+- d.md unrendered
+- e.md unrendered
+- main.scss rendered
+- /feed.xml rendered
 
 ## e.md
-```
-a.md rendered
+- a.md rendered
+- b.md rendered
+- c.md rendered
+- d.md rendered
+- e.md unrendered
+- main.scss rendered
+- /feed.xml rendered
 
-b.md rendered
-
-c.md rendered
-
-d.md rendered
-
-e.md unrendered
-
-main.scss rendered
-
-/feed.xml rendered 
-```
